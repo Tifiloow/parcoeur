@@ -1,0 +1,133 @@
+/*main.css  --> css pour chaque page : contient le style des titres, de la navbar, des bouttons, des card (permettant de contenir des parties du site : section, avec souvent un h2 et du texte) --> */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* on importe une police qui sera appliquée sur tout le site */
+
+
+
+
+/* personnalisation de la couleur des titres*/
+h1 ,h2{
+  color: #232B30;
+}
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+    background-color : #FFFFFF;
+    color: #B4BDC3;
+    font-family: 'Nunito', sans-serif;
+}/*On stylise le body de toutes les pages + définit la couleur du texte et background color*/
+
+
+
+
+
+/*personnalisation des bouttons*/
+
+button{
+  color: #FFFFFF;
+  border: none;
+  height: 20px;
+  background-color: #27B4FF;
+}/*couleur des boutons*/
+
+button:hover{
+  box-shadow: 2px 2px 3px black;
+} /*couleur des boutons lors d'un hover*/
+
+
+
+
+
+
+/*personnalisation de la classe card, permettant de faire un bloc de contenu*/
+.card{ /*https://neumorphism.io/*/
+  border-radius: 20px;
+background: #FFFFFF;
+box-shadow:  31px 31px 87px #cfcfcf,
+             -31px -31px 87px #ffffff;
+  color: #232B30;
+  padding: 50px 50px 50px 50px;
+
+}
+.card h2{
+  text-decoration : underline;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+/*personalisation de la barre de navigation*/
+nav{
+background-color: #232B30;
+}
+
+
+nav ul{
+    list-style-type: none;
+    overflow : hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* le boutton de navigation avec la classe active est le boutton qui dirige sur la page actuellement ouverte */
+nav .active{
+      border-bottom: solid #27B4FF 2px;
+}
+
+
+nav li{
+    float: left;
+    padding: 10px;
+    display : inline;
+    margin : 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+nav li:hover {
+    background-color: #27B4FF;
+    color: #ffffff;
+  }
+
+nav a{
+  color: white;
+}
+  /*style du footer*/
+  footer p {
+    border-top: rgb(136, 133, 133) 2px solid;
+    color: #232B30;
+  }
+
+
+/*petite animation lorsque la page charge avec une keyframe sur article*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+article {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.3s ease-out slideInFromLeft;
+
+}

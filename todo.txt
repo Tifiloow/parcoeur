@@ -1,0 +1,31 @@
+
+
+
+théophile : 
+w3school check quand natan et mathias ont fini (svp d'ici samedi soir à l'idéal)
+---relire cours  
+
+ 
+
+
+
+
+nathan : 
+ajouter image histoire 
+ajouter images composants de matias 
+logo
+relire le html d'un point de vue casse couille : tu regardes le cours, et tu prends le pov du prof : tu regardes si vis à vis du cours
+ce que j'ai fait te semble bon niveau balises, organisation (article, sections, .. ) : d'un point de vue relou : une seule section dans un article = pas cool et mettre div ? 
+
+
+mathias: trouver images et dnner nathan,
+dire à théophile ce qui est demandé à propos de w3school (j'ai pas le line du validateur ??),
+relis le projet avec les commentaires et dis si tu comprends, trouve des fautes d'orthographe (relis le francais en gros),
+juge l'organisation (normalement tout est bon).
+RELIS LE FRANCAIS DE COMPOSANTS + HISTOIRE , ET TU COMPARES A WIKIPEDIA: TU RELIS ET COMPLETES LES TEXTES DE FACON a etre hyper complets (rajoute des infos complexe si tu le souhaites).
+
+
+mathias + nathan: donnez moi une liste des différentes source pour chaque truc et je les ajoute en despi .
+
+Note à vous 2:
+soyez autonome svp je me mets au chomage pour bosser les evals <3

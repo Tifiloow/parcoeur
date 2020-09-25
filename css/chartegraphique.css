@@ -1,0 +1,29 @@
+/*css de chartegraphique.html*/
+.colorsample{
+    width: 150px;
+    height:150px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 10px 5px 5px black;
+    transition: box-shadow 1s;
+    margin-bottom: 70px;
+}
+.colorsample:hover{
+    box-shadow: 20px 10px 10px black; 
+
+}
+
+
+/*On aligne les divs de classe .colorsample contenues dans .colorpalette avec display flex*/
+.colorpalette {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .colorsample {
+    width: 100px;
+  }
+
+  /*.colorpalette contient des .colorsample*/
