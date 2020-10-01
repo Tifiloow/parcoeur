@@ -109,6 +109,25 @@ nav li:hover {
 nav a{
   color: white;
 }
+nav #brandlogo{
+  float:right;
+}
+#brandlogo{
+  height: 100px;
+  width:100px;
+}
+
+
+
+/* responsive --> todo */
+
+
+@media screen and (max-width: 600px) {
+
+  
+}
+/*------------------------*/
+
   /*style du footer*/
   footer p {
     border-top: rgb(136, 133, 133) 2px solid;

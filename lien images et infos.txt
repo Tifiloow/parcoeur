@@ -18,7 +18,7 @@ disque dur:
 image:   https://www.futura-sciences.com/tech/dossiers/informatique-stockage-donnees-informatiques-105/page/3/
 info:   https://www.imedias.pro/cours-en-ligne/informatique/ordinateur/composants-ordinateur
 + le cours
-lecteur graveur:
+lecteur graveur:<
 image:   https://www.regietek.com/produit/transcend-lecteur-graveur-dvd-usb-cable/
 info:   https://www.imedias.pro/cours-en-ligne/informatique/ordinateur/composants-ordinateur
 + le cours
