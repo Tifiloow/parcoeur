@@ -37,11 +37,17 @@ button{
   color: #FFFFFF;
   border: none;
   height: 20px;
-  background-color: #27B4FF;
+  background-color: #232B30; 
+  border-radius: 10px;
 }/*couleur des boutons*/
 
+button a{
+  color: #ffffff;
+}
+
+
 button:hover{
-  box-shadow: 2px 2px 3px black;
+  background-color: #27B4FF;
 } /*couleur des boutons lors d'un hover*/
 
 
@@ -122,8 +128,23 @@ nav #brandlogo{
 /* responsive --> todo */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+  nav li{
+    font-size: 15px;
+  }
 
+  
+}
+
+@media screen and (max-width: 950px) {
+  nav img{
+    font-size: 15px;
+  }
+  #brandlogo{
+    display : none;
+  }
+  
+  
   
 }
 /*------------------------*/

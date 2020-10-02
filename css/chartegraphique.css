@@ -1,7 +1,7 @@
 /*css de chartegraphique.html*/
 .colorsample{
-    width: 150px;
-    height:150px;
+    height:200px;
+    width: 20%;
     border-radius: 50px;
     text-align: center;
     padding-top: 5px;
@@ -23,7 +23,7 @@
 
   }
   .colorsample {
-    width: 100px;
+    
   }
 
   /*.colorpalette contient des .colorsample*/
