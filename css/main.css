@@ -125,6 +125,7 @@ nav #brandlogo{
 
 
 
+
 /* responsive --> todo */
 
 
@@ -165,4 +166,26 @@ article {
   /* This section calls the slideInFromLeft animation we defined above */
   animation: 0.3s ease-out slideInFromLeft;
 
+}
+
+
+/* animation easter egg quand on passe souris sur logo il tourne*/
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+#brandlogo:hover{
+   animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
